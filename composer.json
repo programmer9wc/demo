@@ -1,0 +1,26 @@
+{
+    "name": "programmer9wc/demo",
+    "license": "MIT",
+    "description" : "Demo for Laravel",
+    "authors": [
+        {
+            "name": "Programmer9",
+            "email": "programmer9@webbycrown.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Programmer9WC\\Demo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Programmer9WC\\Demo\\Providers\\TestExtensionServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
