@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Programmer9WC\\Demo\\Providers\\TestExtensionServiceProvider"
+                "Programmer9WC\\Demo\\Providers\\DemoServiceProvider"
             ],
             "aliases": {}
         }
